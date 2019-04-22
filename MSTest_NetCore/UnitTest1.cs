@@ -8,6 +8,7 @@ namespace MSTest_NetCore
         [TestMethod]
         public void TestMethod1()
         {
+            //add template and mstest annotations
         }
     }
 }

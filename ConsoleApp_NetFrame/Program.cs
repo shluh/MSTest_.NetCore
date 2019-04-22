@@ -1,14 +1,10 @@
-﻿using OpenQA.Selenium;
-using OpenQA.Selenium.Chrome;
-using System;
-using System.Collections.Generic;
-using System.Linq;
+﻿using System;
+using System.IO;
 using System.Text;
-using System.Threading.Tasks;
 
 namespace ConsoleApp_NetFrame
 {
-    class Program
+    public class Program
     {
         static void Main(string[] args)
         {
@@ -29,5 +25,8 @@ namespace ConsoleApp_NetFrame
             //Close the browser
             driver.Close();
         }
+        }
+
     }
 }
+
